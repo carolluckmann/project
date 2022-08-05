@@ -1,0 +1,81 @@
+body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-image: url(https://cutewallpaper.org/21/muhammad-ali-wallpaper-hd/Muhammad-Ali-Wallpaper-1920x1080-78-images.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 0 125px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.header {
+    background: linear-gradient(to right, #363636, #121212);
+    /* background-color: #121212; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.header img {
+    height: 80px;
+    width: 80px;
+    border-radius: 20px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin: 0 20px 0 20px;
+}
+
+.menu a li {
+    display: block;
+    padding: 10px;
+}
+
+.join {
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    background: linear-gradient(to right, #491b5e96, #ae00ff96);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.flex img {
+    max-width: 100%;
+    display: inline-block;
+}
+
+/* CSS FLEXBOX */
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: 0 auto;
+    border: #ae00ff96 5px solid;
+}
+
+.flex > div {
+    flex: 1 1 200px;
+    margin: 10px;
+}

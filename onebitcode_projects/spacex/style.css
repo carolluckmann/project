@@ -1,0 +1,25 @@
+h3 {
+    border: 3px solid rgb(78, 111, 182);
+    border-radius: 20px;
+    text-align: center;
+    color: grey;
+}
+
+p {
+    text-align: left;
+    font-size: 12px;
+    display: flex;
+}
+
+#table {
+    text-align: center;
+    border: 1px solid;
+}
+
+th {
+    border: 1px solid;
+}
+
+td {
+    border: 1px solid;
+}
